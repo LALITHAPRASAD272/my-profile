@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lalitha Prasad | DevOps & Cloud Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <div class="background-glow"></div>
+    <header class="topbar">
+      <a class="brand" href="#home">Lalitha Prasad</a>
+      <button id="navToggle" class="nav-toggle" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section reveal" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">DevOps & Cloud Engineer</p>
+          <h1>Hi, I’m Prasad</h1>
+          <p class="hero-text">Motivated fresher DevOps & Cloud Engineer with hands-on experience building secure, automated, and observable cloud infrastructure workflows across Azure, AWS, Kubernetes, and DevSecOps pipelines.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="LalithaPrasad_Fresher.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+          </div>
+        </div>
+
+        <aside class="hero-card glass-card">
+          <div class="hero-card-header">
+            <span class="icon-block"><i class="fa-solid fa-cloud"></i></span>
+            <div>
+              <p class="card-label">Cloud & DevOps</p>
+              <p class="card-value">Azure · AWS · AKS · Terraform</p>
+            </div>
+          </div>
+          <div class="hero-stat">
+            <p>3rd Prize — CloudShield DevSecOps Hackathon 2026</p>
+          </div>
+          <div class="contact-list">
+            <div><i class="fa-solid fa-envelope"></i> palnatilalithaprasad@gmail.com</div>
+            <div><i class="fa-solid fa-phone"></i> +91 8328227014</div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="section-heading">
+          <span class="section-tag">About</span>
+          <h2>Professional Summary</h2>
+        </div>
+        <div class="about-grid glass-card">
+          <p>Motivated fresher DevOps & Cloud Engineer with strong hands-on project experience in end-to-end CI/CD pipeline design, cloud infrastructure automation, container orchestration, and DevSecOps practices. Skilled in Kubernetes, Docker, Terraform, Azure, AWS, and observability tools like Prometheus and Grafana.</p>
+          <p>Demonstrated ability to build, secure, and monitor production-grade infrastructure. B.Tech graduate with a practical mindset, eager to contribute to dynamic engineering teams in cloud, DevOps, or SRE roles.</p>
+        </div>
+      </section>
+
+      <section class="section reveal" id="skills">
+        <div class="section-heading">
+          <span class="section-tag">Skills</span>
+          <h2>Technical Strengths</h2>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card glass-card">
+            <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
+            <h3>Cloud Platforms</h3>
+            <p>Azure VM · VNet · ACR · AKS · VMSS · Key Vault · Bastion · Storage · AWS EC2 · VPC · S3</p>
+          </article>
+          <article class="skill-card glass-card">
+            <div class="skill-icon"><i class="fa-solid fa-gear"></i></div>
+            <h3>CI/CD & Automation</h3>
+            <p>Azure DevOps YAML Pipelines · Jenkins · Git · GitHub · multi-stage build, test, security, deploy automation</p>
+          </article>
+          <article class="skill-card glass-card">
+            <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Infrastructure as Code</h3>
+            <p>Terraform provisioning and state management for reusable Azure and AWS infrastructure.</p>
+          </article>
+          <article class="skill-card glass-card">
+            <div class="skill-icon"><i class="fa-solid fa-box"></i></div>
+            <h3>Containerization</h3>
+            <p>Docker image building, multi-stage Dockerfiles, ACR registry workflows, vulnerability scanning with Trivy.</p>
+          </article>
+          <article class="skill-card glass-card">
+            <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Security & DevSecOps</h3>
+            <p>SonarQube static analysis, Trivy container scanning, Azure RBAC, Managed Identities, NSG policies.</p>
+          </article>
+          <article class="skill-card glass-card">
+            <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+            <h3>Monitoring & Ops</h3>
+            <p>Prometheus · Grafana dashboards · Azure Monitor · Linux administration · Bash scripting · Python Flask · MySQL.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="projects">
+        <div class="section-heading">
+          <span class="section-tag">Projects</span>
+          <h2>Recent Work</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card glass-card">
+            <div class="project-top">
+              <span class="project-badge">Azure DevSecOps</span>
+              <h3>CloudShield DevSecOps Pipeline</h3>
+            </div>
+            <p>Designed and provisioned Azure infrastructure with Terraform, built end-to-end Azure DevOps YAML pipeline, integrated SonarQube and Trivy gates, and deployed AKS workloads with monitoring using Prometheus and Grafana.</p>
+            <ul>
+              <li>Automated build-test-scan-deploy flow</li>
+              <li>Self-hosted Azure DevOps agent on Ubuntu VM</li>
+              <li>Zero-downtime Kubernetes rolling deployments</li>
+            </ul>
+          </article>
+          <article class="project-card glass-card">
+            <div class="project-top">
+              <span class="project-badge">AWS Infrastructure</span>
+              <h3>Flask Full-Stack Deployment</h3>
+            </div>
+            <p>Deployed a production-style 3-tier Flask application on AWS with separate EC2 instances for web, application, and MySQL database tiers, secured by VPC networking, security groups, and private subnet connectivity.</p>
+            <ul>
+              <li>Tiered AWS architecture with secure network design</li>
+              <li>Linux server management using pip, virtualenv and systemd</li>
+              <li>Database user privileges and backend connectivity</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <div class="section-heading">
+          <span class="section-tag">Contact</span>
+          <h2>Let’s Connect</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info glass-card">
+            <h3>Reach out for collaborations</h3>
+            <p>Available for cloud engineering, DevOps, SRE, and infrastructure automation roles. Let's build secure and reliable systems together.</p>
+            <div class="contact-details">
+              <div><i class="fa-solid fa-envelope"></i> palnatilalithaprasad@gmail.com</div>
+              <div><i class="fa-solid fa-phone"></i> +91 8328227014</div>
+            </div>
+            <div class="social-links">
+              <a href="#" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <form class="contact-form glass-card" action="mailto:palnatilalithaprasad@gmail.com" method="post" enctype="text/plain">
+            <label><span>Name</span><input type="text" name="name" placeholder="Your name" required /></label>
+            <label><span>Email</span><input type="email" name="email" placeholder="Your email" required /></label>
+            <label><span>Message</span><textarea name="message" rows="5" placeholder="How can I help?" required></textarea></label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
