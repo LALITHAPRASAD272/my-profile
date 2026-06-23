@@ -356,18 +356,34 @@ a {
 }
 .social-links {
   display: flex;
-  align-items: center;
   gap: 16px;
 }
 .social-links a {
+  display: grid;
+  place-items: center;
+  justify-items: center;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #eef5ff;
+  text-align: center;
+  min-width: 182px;
+}
+.social-links a i {
   width: 45px;
   height: 45px;
   display: grid;
   place-items: center;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  color: #eef5ff;
+  font-size: 1.25rem;
+}
+.social-links a span {
+  display: block;
+  color: #c7d9f5;
+  font-size: 0.92rem;
+  line-height: 1.3;
+  word-break: break-all;
 }
 .contact-form {
   padding: 28px;
