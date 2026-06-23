@@ -370,6 +370,7 @@ a {
   color: #eef5ff;
   text-align: center;
   min-width: 182px;
+  cursor: pointer;
 }
 .social-links a i {
   width: 45px;
